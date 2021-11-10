@@ -42,12 +42,12 @@
             href="https://github.com/SAP-samples/devtoberfest-2021-frontend-coding-challenge" />
           </link>
         </MessageStrip>
-        <List id="all-list" items="{sample>/}">
+        <List id="all-list" items="{sample>/}" growing="true" growingDirection="Downwards"  growingThreshold="5">
           <headerToolbar>
             <OverflowToolbar id="all-list-bar">
-              <Title id="all-bar-info" text="{i18n>SAP BTP Services}" level="H4" />
+              <Title id="all-bar-info" text="{i18n>sapbtpservice}" level="H4" />
               <ToolbarSpacer id="all-bar-spacer" />
-              <SearchField id="all-bar-search" width="60%" placeholder="{i18n>Search for the name or description}"
+              <SearchField id="all-bar-search" width="60%" placeholder="{i18n>searchforthenameordescription}"
                 liveChange=".liveSearch" />
             </OverflowToolbar>
           </headerToolbar>
